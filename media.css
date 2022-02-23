@@ -1,0 +1,32 @@
+@media (max-width: 1280px) {
+  .container {
+    max-width: 900px;
+  }
+  .product-content {
+    width: 200px;
+  }
+}
+
+@media (max-width: 940px) {
+  .container {
+    max-width: 900px;
+  }
+  .product-content {
+    width: 200px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 90%;
+  }
+  .goods{
+     display: flex;
+     flex-direction: column;
+  }
+  .product-content {
+    margin: 10px auto;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+}
